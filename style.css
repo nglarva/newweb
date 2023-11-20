@@ -1,0 +1,11 @@
+.layout-item {
+    height: 500px;
+    
+}
+.layout {
+    display: grid;
+    /* grid-template-columns: calc(50% - 40px) calc(30% - 40px) 30%; */
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+}
